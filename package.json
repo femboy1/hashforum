@@ -1,0 +1,15 @@
+{
+  "name": "hashforum",
+  "version": "1.0.0",
+  "description": "A decentralized pseudonymous forum.",
+  "main": "build.js",
+  "repository": "https://github.com/femboy1/hashforum.git",
+  "author": "Peter Johnson <integral.sketch1@gmail.com>",
+  "license": "GPL-3",
+  "private": true,
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chokidar": "^3.5.3"
+  },
+  "type": "module"
+}
