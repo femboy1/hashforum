@@ -40,4 +40,4 @@ You can the edit the config files and start up.
 
 ## File security
 
-Upon start, you may have noticed the `(security) File <> validated!` message. This occurs simply because there is a hidden `.files-checksum` file which stores the checksum of all internal files (those not for user modification). If the checksums don't match, it will attempt to recover the system before starting.
+Upon start, you may have noticed the `(security) File <> validated!` message. This occurs simply because there is a hidden `.files-checksum` file which stores the checksum of all internal files (those not for user modification). If the checksums don't match, it will attempt to recover the system before starting. You can easily bypass this check by either silencing these errors (`--no-security`) or running a rehash (`./node rehash --changed-only`).
