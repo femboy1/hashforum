@@ -37,3 +37,7 @@ A large portion of important files are un-made on a first-time execution and wil
 ```
 
 You can the edit the config files and start up.
+
+## File security
+
+Upon start, you may have noticed the `(security) File <> validated!` message. This occurs simply because there is a hidden `.files-checksum` file which stores the checksum of all internal files (those not for user modification). If the checksums don't match, it will attempt to recover the system before starting.
